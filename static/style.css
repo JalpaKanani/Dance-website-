@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#logo {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin: -9px 14px;
+  margin-right: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo img {
+  height: 42px;
+  filter: invert(1);
+}
+#navbar {
+  background-color: rgb(144, 19, 19);
+  padding: 18px 14px;
+  font-family: "Bangers", cursive;
+}
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+#navbar li {
+  list-style: none;
+}
+#navbar li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 13px 20px;
+}
+#navbar li a:hover {
+  color: black;
+}
+
+#introSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: fantasy;
+  font-size: 55px;
+  background: center/cover no-repeat url("/static/bg2.jpg");
+  height: 430px;
+  padding-bottom: 40px;
+  background-color: red;
+}
+#introSection div.small {
+  font-size: 40px;
+  padding: 5px;
+}
+
+#missionSection {
+  margin: auto;
+  width: 76%;
+  display: block;
+  height: 326px;
+}
+
+#missionSection h2 {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  padding-top: 12px;
+  font-size: 36px;
+}
+.card {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(209, 113, 113);
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 29%;
+  margin: 23px 22px;
+  height: 209px;
+}
+.card h3 {
+  text-align: center;
+  margin: 0px 12px;
+  margin-top: 15px;
+}
+.card-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-img {
+  height: 70px;
+  padding: 0 14px;
+  margin: 27px 3px;
+}
+.card-img img {
+  height: inherit;
+}
+.card-content {
+  padding: 0px 10px;
+}
+.card-content {
+}
+#sponsorsSection {
+  height: 300px;
+  background-color: rgb(175, 104, 91);
+}
+#sponsorsSection h2 {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  padding-top: 28px;
+  font-size: 53px;
+}
+#sponsors {
+  height: 120px;
+  max-width: 1000px;
+  margin: 69px auto;
+}
+#sponsors img {
+  height: 51%;
+  padding: 0px 56px;
+}
+.spimg {
+  height: 300%;
+  margin: 20px;
+}
+
+#abc {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  background-color: black;
+  font-size: 20px;
+}
